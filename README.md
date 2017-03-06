@@ -11,6 +11,7 @@
 3. Url for application is "http://localhost:2020/SpringRestHibernateExample" - click on three links provided(listUsers, listAlbums, listPhotos) on welcome page to get the data from the endpoints and store in our database connected
 4. All CRUD operations can be done using Postman
 5. Url for Crud operations on User are
+
 http://localhost:2020/SpringRestHibernateExample/fetchAllUsers  -  to display all usres in Json format 
 http://localhost:2020/SpringRestHibernateExample/user/{id}  - to get details of a specific user with id given in {id}
 http://localhost:2020/SpringRestHibernateExample/user/add - to add a user
@@ -18,9 +19,18 @@ http://localhost:2020/SpringRestHibernateExample/user/delete/{id} - to delete a 
 http://localhost:2020/SpringRestHibernateExample/user/update/{id} - to update a user with specific id
 
 6. Url for CRUD operations on photos are
+
 http://localhost:2020/SpringRestHibernateExample/fetchAllPhotos - to display all photos
 http://localhost:2020/SpringRestHibernateExample/get/photo/{id} - to get a photo with specific id
 http://localhost:2020/SpringRestHibernateExample/add/photo - to add a photo
 http://localhost:2020/SpringRestHibernateExample/delete/photo/{id} - to delete a photo with specific id
 http://localhost:2020/SpringRestHibernateExample/update/photo/{id} - to update a photo with specific id
+
+7.Url for CRUD operations on Albums are
+
+http://localhost:2020/SpringRestHibernateExample/fetchAllAlbums - to display all albums
+http://localhost:2020/SpringRestHibernateExample/get/album/{id} - to get a album with specific id
+http://localhost:2020/SpringRestHibernateExample/add/album - to add a album
+http://localhost:2020/SpringRestHibernateExample/delete/album/{id} - to delete a album with specific id
+http://localhost:2020/SpringRestHibernateExample/update/album/{id} - to update a album with specific id
 
