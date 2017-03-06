@@ -1,5 +1,8 @@
 # PhotoAlbumManager
 
+I have used Spring, hibernate, Mysql to create this Rest API. I havent taken the whole data from the given endpoints but if it is required to consume all fields in the given end points i can extend this project to consume all the fields.
+
+I have mainly concentrated on performing REST calls and doing CRUD operations on the database.
 
 #Steps To Execute
 1. Import the project as Maven project
